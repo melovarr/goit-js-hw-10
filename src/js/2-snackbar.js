@@ -24,16 +24,20 @@ function formSubmiting(event) {
 function successMessage(delay) {
     iziToast.success({
         title: 'Ok',
+        titleColor: '#fff',
         message: `Fulfilled promise in ${delay}ms`,
-        backgroundColor: 'green',
+        messageColor: '#fff',
+        backgroundColor: '#60a10a',
         position: 'topRight'
     });
 }
 function errorMessage(delay) {
     iziToast.error({
         title: 'Error',
+        titleColor: '#fff',
         message: `Rejected promise in ${delay}ms`,
-        backgroundColor: 'red',
+        messageColor: '#fff',
+        backgroundColor: '#ef5050',
         position: 'topRight'
 })
 }

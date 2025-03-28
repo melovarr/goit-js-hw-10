@@ -32,4 +32,10 @@ main:has(#datetime-picker) {
   display: flex;
   flex-direction: column;
   align-items: center;
+ 
+}
+main:has(.form){
+ display: flex;
+  flex-direction: column;
+  align-items: center;
 }
