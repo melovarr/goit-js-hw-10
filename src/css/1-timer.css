@@ -36,13 +36,13 @@ button[disabled] {
 }
 .timer {
     display: flex;
+    justify-content: center;
     margin-top: 10px;
 gap: 30px;
 }
 .field {
     display: flex;
     flex-direction: column;
-    /* margin-right: 30px; */
 }
 .value {
 font-size: 60px;
@@ -57,6 +57,6 @@ text-shadow: 0 6px 8px #6d95ae, 0 -3px 1px #fff;
     font-size: 20px;
     font-weight: 400;
     text-transform: uppercase;
-    color: #6d95ae5;
+    color: #6d95ae;
     text-shadow: 0 4px 4px #6d95ae, 0 -2px 1px #fff;
 }
