@@ -74,6 +74,13 @@ times.forEach((time, index) => {
 const names = ['bob', ...['donald'], 'susy', 'lacy', ...['richard', 'alex']];
 console.log(names);
 
+
+      const client = {
+	firstName: "Anna",
+lastName: "Mercer"
+}
+
+console.log(client[firstName]);
 // iziToast.show({
 //     title: 'Hey',
 //     titleColor: 'red',
