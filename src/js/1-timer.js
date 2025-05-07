@@ -71,7 +71,8 @@ times.forEach((time, index) => {
     counters[index].textContent = String(time).padStart(2, '0');
 });
 }
-
+const names = ['bob', ...['donald'], 'susy', 'lacy', ...['richard', 'alex']];
+console.log(names);
 
 // iziToast.show({
 //     title: 'Hey',
